@@ -1,4 +1,0 @@
-mvn clean verify sonar:sonar
-  -Dsonar.projectKey=cukiernia
-  -Dsonar.host.url=http://localhost:9000
-  -Dsonar.login=0ec0d093df050c6bd29ed934f119b3894392b9cc
