@@ -12,11 +12,16 @@ public class ClientConfig {
     CommandLineRunner commandLineRunner(ClientRepository repository){
         return args -> {
             Client jan = new Client(
-                    "Fiołkowa 12",
-                    "Jan Nowak");
+                    "Tomcio Paluch",
+                    "Fiolkowa 21/42",
+                    "banger@gmail.com",
+                    "842234243"
+                    );
             Client alex = new Client(
-                    "Powstańców 32",
-                    "Alex Karl");
+                    "Ron pyta ",
+                    "falllonska 42/69",
+                    "banger@gmail.com",
+                    "842234243");
             repository.saveAll(List.of(jan, alex));
         };
     }
